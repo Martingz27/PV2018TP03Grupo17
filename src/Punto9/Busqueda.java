@@ -15,7 +15,7 @@ import Punto8.Libro;
 public class Busqueda {
     public void BusquedadeLibros(String btitulo)
     {
-        Libro libro =new Libro();
+        //Libro libro =new Libro();
         GestorLibros gestorl = new GestorLibros();
         for (Libro libro: gestorl.getArregloLibro())
         {

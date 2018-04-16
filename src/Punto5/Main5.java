@@ -16,7 +16,7 @@ public class Main5 {
     {
         
         Scanner sc = new Scanner(System.in);
-        GestorCirculo gestor=new GestorCirculo();
+        GestorCirculo gestor = new GestorCirculo();
         int resp;
         do
         {
