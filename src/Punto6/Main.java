@@ -9,10 +9,10 @@ import java.util.Scanner;
 
 /**
  *
- * @author Martin
+ * @author Malen Cuellar
  */
 public class Main {
-    public static void main(String [] args)
+   public static void main(String [] args)
     {
         Scanner teclado= new Scanner (System.in);
         
@@ -36,7 +36,7 @@ public class Main {
             respuesta=teclado.nextInt();
         }while(respuesta != 0);
         
-        for(Rectangulo rectangulo: lista.getListaRectangulo())
+        for (Rectangulo rectangulo: lista.getListaRectangulo())
         {
             System.out.println("la base del rectangulo es "+rectangulo.getBase());
             System.out.println("la altura del rectangulo es"+rectangulo.getAltura());
@@ -46,4 +46,5 @@ public class Main {
         }
           
     }
+ 
 }

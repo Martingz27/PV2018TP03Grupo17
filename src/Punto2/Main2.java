@@ -7,7 +7,7 @@ package Punto2;
 
 /**
  *
- * @author Martin
+ * @author Malen Cuellar
  */
 public class Main2 {
     public static void main(String[] args) {
